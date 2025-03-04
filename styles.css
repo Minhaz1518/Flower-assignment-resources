@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.nav
+{
+    height: 600px;
+    background-color: #f0bdc8 ;
+    background-image: url("./Asset/pngwing 10.png") ; background-repeat: no-repeat; background-size:contain; 
+    background-position:right 50px top 11px; 
+    display: flex;
+    gap: 150px;
+}
+
+.title 
+{
+    width: 500px;
+    height: 400px;
+    margin: 150px 100px 10px 230px;
+}
+
+.title h3
+{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.title p
+{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.pri_btn
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 10px;
+    margin-top: 20px;
+}  
