@@ -234,15 +234,16 @@ button:hover
     margin: 0 200px 10px 300px;
 }
 
+/*   ------------------------------------------    */
 
-#insta_title{
+.insta_title{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
 
-#para_child
+.para_child
 {
     text-align: center;
     margin-top: 10px;
@@ -370,7 +371,9 @@ button:hover
 
 }
 
+
 /* Mobile Responsive  */
+
 
 @media screen and (max-width:350px)
 {
@@ -419,41 +422,222 @@ button:hover
      }
 
      button:hover
-{
-    background: #8290ff;
-}
+    {
+        background: #8290ff;
+    }
+
+    .flowers
+    {
+        width: 350px;
+        height: 350px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .child1{
+        width: 350px;
+        height: 200px;
+        margin:50px 0 0 0;
+        display:flex;
+
+    }
+   
+    .flw1 , .flw2 , .flw3
+    {
+        width: 200px;
+        height: 200px;
+        box-shadow: 5px 5px 5px rgb(213, 202, 202);
+
+    }
+
+    .img_of_flw
+    {
+        width: 100px;
+        height: 175px;
+    }
+
+    .child2
+    {
+        width: 350px;
+        margin: 0 ;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .pink1 , .pink2 , .pink3
+    {
+        width: 50px;height: 50px;
+        text-align: center;
+    }
 
 
-     .flowers
-     {
-         width: 300px;
-         height: auto;
-         display: flex;
-         flex-direction: column;
-         margin:auto ;
-         background-color: none ;
-         border: none;
-     }
-     
+    .service
+    {
+        width:350px;
+        height: 500px;
+
+    }
+    .sevice_child
+    {
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .pink1:hover , .pink2:hover , .pink3:hover
+    {
+        color: #E55473;
+    }
+
+    .discount
+    {
+        width: 350px;
+        height: 600px;
+        display:flex;
+        flex-direction: column;
+    }
+    .discount_child
+    {
+        width: 350px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #dis_title
+    {
+        width: 350px;
+        color: #272727;
+        font-size: 19px;
+        font-weight: 800;
+        text-align: center; 
+        margin: 5px 0 0 0;
+    }
+
+    #dis_para
+    {
+        width: 350px;
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center; 
+        margin: 10px 0 0 0;
+    }
+
+    .shop_now_btn
+    {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px 0 0 0 ;
+    }
+
+    .back_img
+    {
+        width: 350px;
+        height: 300px;
+        background-image: url(./Asset/pngwing\ 8.png) ; 
+        background-repeat: no-repeat; background-size:contain;
+        background-position:center;
+        margin-top: 15px;
+    }
+
+    .insta_title{
+        margin-top: 50px;
+    }
+
+    .flowers_2
+    {
+        width: 350px;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 0 50px 0 ;
+    }
+
+    .child_flowers_2_of_1 , .child_flowers_2_of_2 , 
+    .child_flowers_2_of_3 , .child_flowers_2_of_4
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    .deal_parent
+    {
+
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 0 0;
+    }
+
+    .deal_child
+    {
+        width: 350px;
+        height: 350px;
+        background-image: url(./Asset/Rectangle\ 9.png);
+        background-repeat: no-repeat;
+        background-size:auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #email_here
+    {
+        width: 200px; height: 30px;
+        border-radius: 8px;
+        background: #FFF;
+        margin-top: 5px;
+    }
+
+    
+    .footer
+    {
+        width: 350px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0px;
+        background: hsl(0, 3%, 6%);
+        margin-top: 100px;
+    }
 
 
-        .flw1 , .flw2 , .flw3
-        {
-            width: 300px; 
-            height: 400px;
-            border-top-right-radius: 50%;
-            border-top-left-radius: 50%;
-            margin-top: 40px;
-            background-color:none;
-        }
+    #footer_title
+    {
+        color:#E55473;
+        font-size: 50px;
+        font-weight: 800;
+        padding: 50px 0 0 0;
 
-        .flw1
-        {
-            background: rgba(167, 33, 98, 0.15);
+    }
 
-        }
+    #footer_pera
+    {
+        width: 350px;
+        color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px 0 0 0;
+
+    }
 
 
+    #copyright
+    {
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 10px;
+        font-weight: 400;
+        padding: 20px 0 0 0;
 
-
+    }
+    
 }
