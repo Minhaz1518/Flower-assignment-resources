@@ -281,7 +281,7 @@ button:hover
 .deal_parent
 {
 
-  height: 500px;
+  height: 350px;
   display: flex;
   justify-content: center;
   margin: 50px ;
@@ -319,10 +319,6 @@ button:hover
     margin-top: 10px;
 }
 
-.subscribtion
-{
-}
-
 
 #email_here
 {
@@ -333,16 +329,46 @@ button:hover
 
 
 
+.footer
+{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: hsl(0, 3%, 6%);
+    margin-top: 10px;
+}
 
 
+#footer_title
+{
+    color:#E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 100px 0px 10px 350px;
+
+}
+
+#footer_pera
+{
+    width: 500px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0px 10px 260px;
+
+}
 
 
+#copyright
+{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px 10px 330px;
 
-
-
-
-
-
+}
 
 /* Mobile Responsive  */
 
