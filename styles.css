@@ -235,15 +235,101 @@ button:hover
 }
 
 
+#insta_title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#para_child
+{
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.flowers_2
+{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 20px ;
+  gap: 20px;
+
+}
+
+#insta_title
+{
+    margin-top: 50px;
+}
+
+.child_flowers_2_of_1 , .child_flowers_2_of_2 , 
+.child_flowers_2_of_3 , .child_flowers_2_of_4
+{
+    width: 200px;
+    height: 200px;
+}
 
 
 
 
+.deal_parent
+{
+
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 50px ;
+}
+
+.deal_child
+{
+    width: 900px;
+    height: 350px;
+    background-image: url(./Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 
+#latest_deal
+{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 80px;
+    text-shadow: 2px 4px 4px rgb(46, 22, 22);
+}
 
 
+#coupon
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
 
+.subscribtion
+{
+}
+
+
+#email_here
+{
+    width: 400px; height: 30px;
+    border-radius: 8px;
+    background: #FFF;
+}
 
 
 
